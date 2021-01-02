@@ -1,0 +1,699 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>YOGA</title>
+	<!-- index.css and bootstrap(bootstrap.css, jquery.min.js and bootstrap.js ) -->
+	<link rel="stylesheet" type="text/css" href="index.css">
+	<link rel="stylesheet" type="text/css" href="Bootstrap/dist/css/bootstrap.css">
+	<script src="Bootstrap/dist/js/jquery.min.js"></script>
+	<script src="Bootstrap/dist/js/bootstrap.js"></script>
+	
+	<!--  meta tag to provide tablet and mobile view-->
+	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+	
+	<!-- animate.css, aos.css and aos.js for navbar animation and animation on scroll -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	
+	<!-- fonts -->
+	<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap" rel="stylesheet">
+
+	<!-- fontawesome -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
+
+	<!-- typed.js library -->
+	<script src="typed.js"></script>
+	
+	<!-- Baffle.js -->
+	<script src="https://cdn.jsdelivr.net/npm/baffle@0.3.6/dist/baffle.min.js"></script>
+
+	<!-- swiper.css -->
+	<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+	
+	<!-- code for navbar list animation -->
+	<script>
+		$(document).ready(function () {
+			$('#navanim').click(function () {
+				$('#navbarcollapse').addClass("animated fadeInRight slow");
+			});
+		});
+	</script>
+	
+	<!-- code for strting animation and pageload -->
+	<!-- <script>
+		$(document).ready(function () {
+			$(".loader").delay(4700).fadeOut(500);
+			$(".hello").delay(5000).fadeIn(500);
+		});
+	</script> -->
+		
+</head>
+
+<body>
+
+	<!-- code for strting loading animation -->
+	<!-- <div class="loader">
+		<div class="dot"></div>
+	 	<div class="dot"></div>
+	 	<div class="dot"></div>
+	</div> -->
+
+	<!-- body code which will load up after loader -->
+	<div class="hello">
+		<div class="top-nav">
+			<div class="top-nav-inner">
+				<div class="navbar navbar-inverse">
+					<div class="container-fluid">
+						<div class="navbar-header">
+							<a href="#" class="navbar-brand">Dhamma <span id="headeryoga">Yoga</span></a>
+							<button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+								data-target="#navbarcollapse" aria-expanded="false" id="navanim"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+							</button>
+						</div>
+			
+						<div class="collapse navbar-collapse" id="navbarcollapse">
+							<ul class="nav navbar-nav navbar-right">
+								<li><a href="#yoga">YOGA</a></li>
+								<li><a href="#glance">GLANCE</a></li>
+								<li><a href="#benefits">BENEFIT</a></li>
+								<li><a href="#trainer">TRAINER</a></li>
+								<li><a href="#contact">CONTACT</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+
+		<div class="slider">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-lg-5 col-md-5 col-sm-12 col-xs-12">
+						<div class="caption">
+							<h2><span>Hatha Yoga</span></h2>
+							<p><span class="animate"></span></p>
+							<p>It teaches us to use the body as the bow, asana as the arrow, and the soul as the target. ...</p>
+							<div class="button-group">
+								<a href="#pplsay"><button class="btn btn-primary" id="btnanim">Words to Hear</button></a>
+							</div>
+							<marquee>" Contact us for online Hatha Yoga classes "</marquee>
+						</div>
+					</div>
+
+					<div class="col-lg-7 col-md-7 col-sm-12 col-xs-12 rtcarousel">
+						<div class="slider-in">
+							<div id="myCarousel" class="carousel slide" data-ride="carousel">
+								<!-- Wrapper for slides -->
+								<div class="carousel-inner">
+									<div class="item active">
+										<img src="media/Cobra.jpg">
+									</div>
+									<div class="item">
+										<img src="media/Crow Pose.jpg">
+									</div>
+									<div class="item">
+										<img src="media/Downward facing dog.jpg">
+									</div>
+									<div class="item">
+										<img src="media/Plough Pose.jpg">
+									</div>
+									<div class="item">
+										<img src="media/Three legged dog.jpg">
+									</div>
+									<div class="item">
+										<img src="media/Warrior two.jpg">
+									</div>
+									<div class="item">
+										<img src="media/wheel.jpg">
+									</div>
+									<div class="item">
+										<img src="media/Side plank.jpg">
+									</div>
+								</div>
+					
+								<!-- Left and right controls -->
+								<a class="left carousel-control" href="#myCarousel" data-slide="prev">
+									<span class="glyphicon glyphicon-chevron-left"></span>
+								</a>
+								<a class="right carousel-control" href="#myCarousel" data-slide="next">
+									<span class="glyphicon glyphicon-chevron-right"></span>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div><br><br><br>
+
+		
+
+		<div class="container-fluid" id="yoga"><br><br><br>
+			<h1 class="heads" data-aos="zoom-in">Yoga</h1><br>
+			<h3 id="hathayoga" data-aos="fade-up" data-aos-duration="3000">Hatha Yoga</h3>
+			<div class="row">
+				<div class="col-lg-5 col-md-5 col-sm-4 col-xs-4"></div>
+				<div class="col-lg-2 col-md-2 col-sm-4 col-xs-4">
+					<hr id="hr">
+				</div>
+				<div class="col-lg-5 col-md-5 col-sm-4 col-xs-4"></div>
+			</div><br><br><br>
+			<div class="row">
+				<div class="col-lg-2 col-md-2 col-sm-1 col-xs-1"></div>
+				<div class="col-lg-8 col-md-8 col-sm-10 col-xs-10">
+					<p id="yogaparatop" data-aos="fade-zoom-in" data-aos="fade-up" data-aos-duration="3000">In Sanskrit, Hatha means force. 
+						Hatha yoga breathing techniques can be traced in both Buddhist and Hindu texts, 
+						but it was another 1,000 years before the use of yoga postures, or asanas, 
+						and breath control was recorded as a way to enhance vital energy.
+					</p>
+					
+					<p id="yogaparamid" data-aos="fade-zoom-in" data-aos="fade-up" data-aos-duration="3000">
+						“Yoga is a light, which once lit, will never dim. The better your practice, the brighter the flame.”
+					</p>
+
+					<p id="yogaparabottom" data-aos="fade-zoom-in" data-aos="fade-up" data-aos-duration="3000">
+						Classical Hatha yoga provides guidance for the proper setting of yoga,
+						asanas, pranayama or breathing exercises, mudras or hand gestures, 
+						and meditation for personal spiritual growth.
+					</p>
+				</div>
+				<div class="col-lg-2 col-md-2 col-sm-1 col-xs-1"></div>
+			</div>	
+		</div><br><br><br>
+
+
+		<div class="container-fluid cfour" id="glance"><br><br><br>
+			<h1 class="heads" data-aos="zoom-in">Glance</h1>
+			<div class="row">
+				<div class="col-lg-5 col-md-5 col-sm-4 col-xs-4"></div>
+				<div class="col-lg-2 col-md-2 col-sm-4 col-xs-4">
+					<hr id="hr">
+				</div>
+				<div class="col-lg-5 col-md-5 col-sm-4 col-xs-4"></div>
+			</div><br><br><br>
+
+			<div class="row row4">
+				<div>
+					<h4 class="text-center city" data-aos="fade-up" data-aos-duration="3000"><span class="span">Cresent Moon</span></h4><br><br>
+					<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+						<div class="form-group">
+							<div class="col-lg-2"></div>
+							<div class="col-lg-8" >
+								<img src="media/Cresent Moon.jpg" class="img-thumbnail img-circle glancephoto" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+							</div>
+							<div class="col-lg-2"></div>
+						</div>
+					</div>
+					<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+						<div class="form-group">
+							<div class="col-lg-2"></div>
+							<div class="col-lg-8">
+								<p class="glancepara" data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine">Crescent moon pose is a lunging asana that strengthens the legs, thighs and hips, firms the abs and can help with weight loss.
+									In low lunge, the front leg bends at a 90-degree angle and the back knee lowers to the floor, with the top of the foot on the floor. 
+								</p>
+							</div>
+							<div class="col-lg-2"></div>
+						</div>
+					</div>
+				</div><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+				<div>
+					<h4 class="text-center city" data-aos="fade-up" data-aos-duration="3000"><span class="span">Half Pigeon</span></h4><br><br>
+					<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+						<div class="form-group">
+							<div class="col-lg-2"></div>
+							<div class="col-lg-8">
+								<p class="glancepara" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+									Half Pigeon Pose, is considered as an Intermediate Level Pose, which requires flexibility.
+									A proper understanding of the stretch of the various muscles in the practice of 
+									Half Pigeon Pose is important to get the maximum benefit from this pose.
+								</p>
+							</div>
+							<div class="col-lg-2"></div>
+						</div>
+					</div>
+					<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+						<div class="form-group">
+							<div class="col-lg-2"></div>
+							<div class="col-lg-8" >
+								<img src="media/Half Pigeon.jpg" class="img-thumbnail img-circle glancephoto" data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine">
+							</div>
+							<div class="col-lg-2"></div>
+						</div>
+					</div>
+				</div><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+				<div>
+					<h4 class="text-center city" data-aos="fade-up" data-aos-duration="3000"><span class="span">Head Stand</span></h4><br><br>
+					<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+						<div class="form-group">
+							<div class="col-lg-2"></div>
+							<div class="col-lg-8" >
+								<img src="media/Head Stand.jpg" class="img-thumbnail img-circle glancephoto" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+							</div>
+							<div class="col-lg-2"></div>
+						</div>
+					</div>
+					<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+						<div class="form-group">
+							<div class="col-lg-2"></div>
+							<div class="col-lg-8">
+								<p class="glancepara" data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine">
+									Sirsasana, or headstand, can be an energizing pose. 
+									It's also one of the more difficult poses to master and, if done incorrectly, 
+									can cause serious injury. This post requires long hamstrings, 
+									flexible spine and shoulders, and solid upper body strength. 
+								</p>
+							</div>
+							<div class="col-lg-2"></div>
+						</div>
+					</div>
+				</div><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+				<div>
+					<h4 class="text-center city" data-aos="fade-up" data-aos-duration="3000"><span class="span">Mermaid Pose</span></h4><br><br>
+					<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+						<div class="form-group">
+							<div class="col-lg-2"></div>
+							<div class="col-lg-8">
+								<p class="glancepara" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+									Mermaid pose stretches the hips, quads, groin, and shoulders. 
+									It is also a backbend that opens the heart. It develop flexibility in your hips, 
+									shoulders, and back which will help you throughout your daily life. 
+									You will also challenge your balance. 
+							</div>
+							<div class="col-lg-2"></div>
+						</div>
+					</div>
+					<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+						<div class="form-group">
+							<div class="col-lg-2"></div>
+							<div class="col-lg-8" >
+								<img src="media/Mermaid Pose.jpg" class="img-thumbnail img-circle glancephoto" data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine">
+							</div>
+							<div class="col-lg-2"></div>
+						</div>
+					</div>
+				</div><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+				<div>
+					<h4 class="text-center city" data-aos="fade-up" data-aos-duration="3000"><span class="span">Twisted Lizard Pose</span></h4><br><br>
+					<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+						<div class="form-group">
+							<div class="col-lg-2"></div>
+							<div class="col-lg-8">
+								<img src="media/Twisted Lizard Pose.jpg" class="img-thumbnail img-circle glancephoto" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+							</div>
+							<div class="col-lg-2"></div>
+						</div>
+					</div>
+					<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+						<div class="form-group">
+							<div class="col-lg-2"></div>
+							<div class="col-lg-8">
+								<p class="glancepara" data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine">
+									Twisted lizard pose is an advanced asana which challenges one's flexibility level.
+									Twisted lizard pose is one of the advanced versions of lizard pose, which is called utthan pristhasana in Sanskrit.
+									Twisted Lizard Pose additionally involves stretch, Twist.
+								</p>
+							</div>
+							<div class="col-lg-2"></div>
+						</div>
+					</div>
+				</div><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>				
+			</div>
+		</div><br><br><br>
+
+
+		<div class="container-fluid" id="benefits"><br><br><br>
+			<h1 class="heads" data-aos="zoom-in">Benefits</h1>
+			<div class="row">
+				<div class="col-lg-5 col-md-5 col-sm-4 col-xs-4"></div>
+				<div class="col-lg-2 col-md-2 col-sm-4 col-xs-4">
+					<hr id="hr">
+				</div>
+				<div class="col-lg-5 col-md-5 col-sm-4 col-xs-4"></div>
+			</div>
+
+			<div class="row">
+				<div class="col-lg-6 col-md-6 col-sm-5 col-xs-12 leftbenefit">
+					<div class="row leftrow">
+						<div class="col-lg-1 col-md-4 col-sm-0 col-xs-0"></div>
+						<div class="col-lg-11 col-md-8 col-sm-12 col-xs-12">
+							<p class="paraleft" data-aos="fade-up" data-aos-duration="3000">Builds Flexibility and Mobility</p>
+						</div>
+					</div>
+
+					<div class="row leftrow">
+						<div class="col-lg-1 col-md-4 col-sm-0 col-xs-0"></div>
+						<div class="col-lg-11 col-md-8 col-sm-12 col-xs-12">
+							<p class="paraleft" data-aos="fade-up" data-aos-duration="3000">Builds Strength and Core Stability</p>
+						</div>
+					</div>
+
+					<div class="row leftrow">
+						<div class="col-lg-1 col-md-4 col-sm-0 col-xs-0"></div>
+						<div class="col-lg-11 col-md-8 col-sm-12 col-xs-12">
+							<p class="paraleft" data-aos="fade-up" data-aos-duration="3000">Prepare The Body For Meditation</p>
+						</div>
+					</div>
+
+					<div class="row leftrow">
+						<div class="col-lg-1 col-md-4 col-sm-0 col-xs-0"></div>
+						<div class="col-lg-11 col-md-8 col-sm-12 col-xs-12">
+							<p class="paraleft" data-aos="fade-up" data-aos-duration="3000">Helps to Maintain Healthy Joints</p>
+						</div>
+					</div>
+
+					<div class="row leftrow">
+						<div class="col-lg-1 col-md-4 col-sm-0 col-xs-0"></div>
+						<div class="col-lg-11 col-md-8 col-sm-12 col-xs-12">
+							<p class="paraleft" data-aos="fade-up" data-aos-duration="3000">Maintain good posture</p>
+						</div>
+					</div>
+				</div>
+				
+				<div class="col-lg-4 col-md-6 col-sm-7 col-xs-12">
+					<img src="media/Seated Eagle Pose.png" class="img-responsive" data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine">
+				</div>
+				<div class="col-lg-2 col-md-0 col-sm-0 col-xs-0"></div>
+			</div>
+		</div><br><br><br>
+
+		<div class="container-fluid" id="trainer"><br><br><br>
+			<h1 class="heads" data-aos="zoom-in">Trainer</h1>
+			<div class="row">
+				<div class="col-lg-5 col-md-5 col-sm-4 col-xs-4"></div>
+				<div class="col-lg-2 col-md-2 col-sm-4 col-xs-4">
+					<hr id="hr">
+				</div>
+				<div class="col-lg-5 col-md-5 col-sm-4 col-xs-4"></div>
+			</div><br>
+			<div class="row">
+				<div class="col-lg-2 col-md-2 col-sm-1 col-xs-1"></div>
+				<div class="col-lg-8 col-md-8 col-sm-10 col-xs-10">
+					<p id="trainerpara" data-aos="fade-up" data-aos-duration="3000">"Inhale the future, exhale the past."</p>
+					<img src="media/Lotus.jpg" class="img-circle img-responsive img-thumbnail trainerimg" data-aos="fade-up" data-aos-duration="3000">
+					<p id="trainername" data-aos="fade-up" data-aos-duration="3000">Rita Gupta</p>
+					<p id="trainerprof" data-aos="fade-up" data-aos-duration="3000">Specialised Hatha Yoga Trainer</p>
+				</div>
+				<div class="col-lg-2 col-md-2 col-sm-1 col-xs-1"></div>
+			</div>	
+		</div><br><br><br>
+
+
+		<div class="container-fluid" id="pplsay"><br><br><br>
+			<h1 class="heads" data-aos="zoom-in">Words to Hear</h1><br>
+			<h3 id="hathayoga" data-aos="fade-up" data-aos-duration="3000">What People Say About Us</h3>
+			<div class="row">
+				<div class="col-lg-5 col-md-5 col-sm-4 col-xs-4"></div>
+				<div class="col-lg-2 col-md-2 col-sm-4 col-xs-4">
+					<hr id="hr">
+				</div>
+				<div class="col-lg-5 col-md-5 col-sm-4 col-xs-4"></div>
+			</div><br><br><br>
+			<div class="row">
+				<div class="col-lg-12 body">
+					<div>
+						<div class="swiper-container">
+							<div class="swiper-wrapper">
+								<div class="swiper-slide">
+									<p id="swiperp">Ria</p>
+									<p id="swiperdate">02 Jan 2020</p><br>
+									<p id="swiperp2"><sup><i class="fas fa-star"></i></sup>
+										<sup><i class="fas fa-star"></i></sup>
+										<sup><i class="fas fa-star"></i></sup>
+										<sup><i class="fas fa-star"></i></sup>
+										<sup><i class="fas fa-star-half"></i></sup>"She is best. 
+										One of the best hatha yoga trainer. 
+										She helped me to heal from mental stress".
+									</p>
+								</div>
+								<div class="swiper-slide">
+									<p id="swiperp">Bharath Kumar</p>
+									<p id="swiperdate">10 Fan 2020</p><br>
+									<p id="swiperp2"><sup><i class="fas fa-star"></i></sup>
+										<sup><i class="fas fa-star"></i></sup>
+										<sup><i class="fas fa-star"></i></sup>
+										<sup><i class="fas fa-star"></i></sup>
+										<sup><i class="fas fa-star"></i></sup>"I joined her 3 months before. 
+										I really enjoyed the experience and I learned a lot.. 
+										Thanks Rita ma'am for sharing your knowledge".
+									</p>
+								</div>
+								<div class="swiper-slide">
+									<p id="swiperp">Shivani Singh</p>
+									<p id="swiperdate">11 Jan 2020</p><br>
+									<p id="swiperp2"><sup><i class="fas fa-star"></i></sup>
+										<sup><i class="fas fa-star"></i></sup>
+										<sup><i class="fas fa-star"></i></sup>
+										<sup><i class="fas fa-star"></i></sup>
+										<sup><i class="fas fa-star"></i></sup>"I raised my awareness of my body when practicing yoga. 
+										Learnt the different asana, to solve different issues of the body".
+									</p>
+								</div>
+								<div class="swiper-slide">
+									<p id="swiperp">Sangeeta Barik</p>
+									<p id="swiperdate">05 Feb 2020</p><br>
+									<p id="swiperp2"><sup><i class="fas fa-star"></i></sup>
+										<sup><i class="fas fa-star"></i></sup>
+										<sup><i class="fas fa-star"></i></sup>
+										<sup><i class="fas fa-star"></i></sup>"Practicing meditation and Hatha Yoga asanas 
+										with Rita ma'am was wonderful. 
+										Asanas really helped with mental stress".
+									</p>
+								</div>
+								<div class="swiper-slide">
+									<p id="swiperp">Manasa</p>
+									<p id="swiperdate">05 Mar 2020</p><br>
+									<p id="swiperp2"><sup><i class="fas fa-star"></i></sup>
+										<sup><i class="fas fa-star"></i></sup>
+										<sup><i class="fas fa-star"></i></sup>
+										<sup><i class="fas fa-star"></i></sup>
+										<sup><i class="fas fa-star"></i></sup>"Hatha Yoga really opened a whole new world for me. 
+										She explains so well, that I learnt postures in just one part of yoga practice".
+									</p>
+								</div>
+								<div class="swiper-slide">
+									<p id="swiperp">Kartikh</p>
+									<p id="swiperdate">22 Mar 2020</p><br>
+									<p id="swiperp2"><sup><i class="fas fa-star"></i></sup>
+										<sup><i class="fas fa-star"></i></sup>
+										<sup><i class="fas fa-star"></i></sup>
+										<sup><i class="fas fa-star"></i></sup>
+										<sup><i class="fas fa-star-half"></i></sup>"She have been nice and has created a fun learning environment
+										 and I'd wished we had more practical sessions to develop better postures through yoga movements.".
+									</p>
+								</div>
+								<div class="swiper-slide">
+									<p id="swiperp">Aishwarya Sunil</p>
+									<p id="swiperdate">19 Apr 2020</p><br>
+									<p id="swiperp2"><sup><i class="fas fa-star"></i></sup>
+										<sup><i class="fas fa-star"></i></sup>
+										<sup><i class="fas fa-star"></i></sup>
+										<sup><i class="fas fa-star"></i></sup>
+										<sup><i class="fas fa-star"></i></sup>"I'm very happy to learning Hatha Yoga. 
+										The classes are very concentre, and
+										interesting. Thanks a lot Rita ma'am for your help during this few months.".
+									</p>
+								</div>
+								<div class="swiper-slide">
+									<p id="swiperp">Biswajeet Mishra</p>
+									<p id="swiperdate">26 Apr 2020</p><br>
+									<p id="swiperp2"><sup><i class="fas fa-star"></i></sup>
+										<sup><i class="fas fa-star"></i></sup>
+										<sup><i class="fas fa-star"></i></sup>
+										<sup><i class="fas fa-star"></i></sup>"The experience was to smooth and effective. 
+										Even during this Covid situation also she took online classes to help her students".
+									</p>
+								</div>
+								<div class="swiper-slide">
+									<p id="swiperp">Abhishek Katna</p>
+									<p id="swiperdate">01 May 2020</p><br>
+									<p id="swiperp2"><sup><i class="fas fa-star"></i></sup>
+										<sup><i class="fas fa-star"></i></sup>
+										<sup><i class="fas fa-star"></i></sup>
+										<sup><i class="fas fa-star"></i></sup>
+										<sup><i class="fas fa-star"></i></sup>"I really enjoyed the interactive learning experience with Rita ma'am. 
+										I think offering online learning is a great way to adapt for the current Covid situation. 
+										Asanas really benefits my life and mind.".
+									</p>
+								</div>
+								<div class="swiper-slide">
+									<p id="swiperp">Akshay Prakash</p>
+									<p id="swiperdate">15 Jun 2020</p><br>
+									<p id="swiperp2"><sup><i class="fas fa-star"></i></sup>
+										<sup><i class="fas fa-star"></i></sup>
+										<sup><i class="fas fa-star"></i></sup>
+										<sup><i class="fas fa-star"></i></sup>
+										<sup><i class="fas fa-star-half"></i></sup>"I would like to express my heartfull gratitude towards Rita ma'am, 
+										she have guided everyone in a friendly and professionalism way. She is my inspiration.".
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div><br><br><br>
+
+		<div class="container-fluid" id="contact"><br><br><br>
+			<h1 class="heads" data-aos="zoom-in">Contact Us</h1>
+			<div class="row">
+				<div class="col-lg-5 col-md-5 col-sm-4 col-xs-4"></div>
+				<div class="col-lg-2 col-md-2 col-sm-4 col-xs-4">
+					<hr id="hr">
+				</div>
+				<div class="col-lg-5 col-md-5 col-sm-4 col-xs-4"></div>
+			</div>
+			<div class="row contactrow" >
+				<div id="particles-js"></div>
+				<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2"></div>
+
+				<div class="col-lg-8 col-md-8 col-sm-8 col-xs-8">
+					<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+						<div class="paneldiv">
+							<div class="panel-body">
+								<i class="faa fas fa-map-signs fa-3x"></i>
+								<p class="contactp1">ADDRESS</p>
+								<p class="contactp2">Sanjeevini Sanctuary<br>Bangalore-66</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+						<div class="paneldiv">
+							<div class="panel-body">
+								<i class="faa fas fa-phone fa-3x"></i>
+								<p class="contactp1">PHONE</p>
+								<p class="contactp2">9620399543<br>8892735073</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+						<div class="paneldiv">
+							<div class="panel-body">
+								<i class="faa fas fa-paper-plane fa-3x"></i>
+								<p class="contactp1">EMAIL</p>
+								<p class="contactp2">ritagupta178@gmail.com<br>pal044412@gmail.com</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+						<div class="paneldiv">
+							<div class="panel-body">
+								<i class="faa fas fa-crosshairs fa-3x"></i>
+								<p class="contactp1">MISSION</p>
+								<p class="contactp2">Healthy Life<br>Fitness</p>
+							</div>
+						</div>
+					</div>	
+				</div>
+				
+				<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2"></div>	
+			</div>	
+		</div><br><br><br>
+
+
+		<div class="container-fluid" id="footercontainer">
+			<div class="row">
+				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+					<p class="text-center">All the contents are the copyright of Dhamma Yoga</p>
+					<p class="text-center">Designed and Developed by Akshay Pal</p>
+				</div>
+			</div>
+		</div>
+
+	</div>
+
+
+	<!-- particle.js -->
+	<script src="particles.min.js"></script>
+	<script src="app.js"></script>
+
+
+	<!-- code to hide navbar on click of list -->
+	<script>
+		$('.navbar-collapse a').click(function () {
+			$(".navbar-collapse").collapse('hide');
+		});
+	</script>
+
+
+	<!-- aos  -->
+	<script>
+		AOS.init({ duration: 1000 });
+	</script>
+
+
+	<!-- code for navbar to fadedown on scroll -->
+	<script>
+		$(document).ready(function () {
+			$(window).scroll(function () {
+				var positiontop = $(document).scrollTop();
+				if ((positiontop > 60)) {
+					$('.top-nav-inner').addClass('navbar-scroll animated fadeInDown medium');
+				}
+				else {
+					$('.top-nav-inner').removeClass('navbar-scroll animated fadeInDown medium');
+				}
+			});
+		});
+	</script>
+
+
+	<!-- code for typeed.js -->
+	<script>
+		var typed = new Typed('.animate', {
+			strings: ['A place to balance yourself..', 'To stay healthy and fit..','Smile and live long..'],
+			typeSpeed: 60,
+			backSpeed: 60,
+			loop: true
+		});
+	</script>
+
+
+	<!-- code for baffle.js -->
+	<script>
+		const text = baffle("#btnanim");
+		text.set({
+			characters : '▒█▒ █▓██▒ ▒░/██ ░░█ </<▒/ █░/< /▒▓ <▓█▒ ██░░',
+			speed: 120
+		});
+		text.start();
+		text.reveal(4000);
+	</script>
+
+
+	<!-- swiper.js -->
+	<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+	<script>
+		var swiper = new Swiper('.swiper-container', {
+		  effect: 'coverflow',
+		  grabCursor: true,
+		  centeredSlides: true,
+		  slidesPerView: 'auto',
+		  coverflowEffect: {
+			rotate: 60,
+			stretch: 0,
+			depth: 100,
+			modifier: 1,
+			slideShadows: true,
+		  },
+		  loop: true,
+			autoplay: {
+				delay: 2000,
+				disableOnInteraction: false,
+			},
+		});
+	  </script>
+
+
+</body>
+
+</html>
